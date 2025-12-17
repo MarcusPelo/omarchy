@@ -1,0 +1,6 @@
+{
+  "custom/pacseek": {
+    "format": "󰊠 ",
+    "on-click": "hyprctl dispatch exec 'kitty --class pacseek --title pacseek -e pacseek'"
+  }
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+    <object class="GtkMenu" id="menu">
+        <child>
+            <object class="GtkMenuItem" id="homelab-moria">
+                <property name="label">  Moria Proxmox VE</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="homelab-qbit-media">
+                <property name="label">  qBit Media</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="homelab-qbit-games">
+                <property name="label">  qBit Games</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="homelab-sonarr">
+                <property name="label">󱄐  Sonarr</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="homelab-radarr">
+                <property name="label">󱜋  Radarr</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="homelab-plex">
+                <property name="label">󰚺  Plex</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="homelab-immich">
+                <property name="label">  Immich</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="homelab-openwebui">
+                <property name="label">  OpenWebUI</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="homelab-homeassistant">
+                <property name="label">󰟐  Home Assistant</property>
+            </object>
+        </child>
+    </object>
+</interface>

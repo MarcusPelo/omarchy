@@ -1,0 +1,17 @@
+{
+    "group/app-drawer": {
+        "orientation": "inherit",
+        "drawer": {
+            "transition-duration": 500,
+            "children-class": "custom/audio-sink",
+            "transition-left-to-right": true
+        },
+        "modules": [
+            "custom/audio-sink",
+            "custom/pacseek",
+            "custom/clipboard-menu",
+            "custom/glyphs",
+            "custom/monitor-menu"
+        ]
+    }
+}

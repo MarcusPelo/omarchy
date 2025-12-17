@@ -1,0 +1,7 @@
+{
+    "custom/glyphs": {
+        "format": " ",
+        "on-click": "~/.config/hypr/scripts/glyph-menu.sh",
+        "tooltip-format": "Glyph Launcher"
+    }
+}

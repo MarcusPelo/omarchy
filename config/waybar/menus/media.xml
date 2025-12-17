@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+    <object class="GtkMenu" id="menu">
+        <child>
+            <object class="GtkMenuItem" id="yt">
+                <property name="label">  YouTube</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="yt-music">
+                <property name="label">󰌳  YouTube Music</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="spotify">
+                <property name="label">  Spotify</property>
+            </object>
+        </child>
+    </object>
+</interface>

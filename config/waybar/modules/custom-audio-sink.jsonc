@@ -1,0 +1,6 @@
+{
+    "custom/audio-sink": {
+        "format": "󱀞 ",
+        "on-click": "~/.config/hypr/scripts/switch-sink.sh -s"
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "custom/playpause": {
+    "exec": "$XDG_CONFIG_HOME/waybar/scripts/playpause.sh",
+    "return-type": "json",
+    "on-click": "playerctl play-pause",
+    "interval": 1
+  }
+}

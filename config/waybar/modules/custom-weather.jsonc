@@ -1,0 +1,11 @@
+{
+    "custom/weather": {
+        "format": "| {} ",
+        "format-alt": "{alt}: {}",
+        "format-alt-click": "click",
+        "interval": 3600,
+        "return-type": "json",
+        "exec": "$HOME/.config/waybar/scripts/weather.sh",
+        "tooltip": true
+    }
+}

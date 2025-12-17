@@ -1,0 +1,18 @@
+{
+    "group/media-drawer": {
+        "orientation": "inherit",
+        "drawer": {
+            "transition-duration": 500,
+            "children-class": "custom/expand-icon",
+            "transition-left-to-right": true
+        },
+        "modules": [
+            "custom/expand-icon",
+            "custom/youtube-music",
+            "custom/separator#blank",
+            "custom/youtube",
+            "custom/separator#blank",
+            "custom/spotify"
+        ]
+    }
+}

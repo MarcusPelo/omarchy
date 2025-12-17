@@ -1,0 +1,20 @@
+{
+    "custom/homelab-menu": {
+        "format": "󰕮 ",
+        "tooltip": false,
+        "on-click": "omarchy-launch-webapp 'http://10.11.18.215:8080/'",
+        "menu": "on-click-right",
+        "menu-file": "~/.config/waybar/menus/homelab.xml",
+        "menu-actions": {
+            "homelab-moria": "omarchy-launch-webapp 'https://pve.pelobox.com'",
+            "homelab-qbit-media": "omarchy-launch-webapp 'http://10.11.18.103:8090/'",
+            "homelab-qbit-games": "omarchy-launch-webapp 'http://10.11.18.120:8090/'",
+            "homelab-sonarr": "omarchy-launch-webapp 'http://10.11.18.104:8989'",
+            "homelab-radarr": "omarchy-launch-webapp 'http://10.11.18.105:7878'",
+            "homelab-plex": "omarchy-launch-webapp 'http://10.11.18.102:32400/web/index.html'",
+            "homelab-immich": "omarchy-launch-webapp 'https://photos.pelobox.com'",
+            "homelab-openwebui": "omarchy-launch-webapp 'https://ai.pelobox.com'",
+            "homelab-homeassistant": "omarchy-launch-webapp 'http://10.11.18.222:8123/'"
+        }
+    }
+}

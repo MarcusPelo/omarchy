@@ -1,0 +1,26 @@
+{
+    "custom/spotify": {
+        "format": "   {} ",
+        "exec": "playerctl -p spotify metadata --format '{{ artist }} - {{ title }}'",
+        "exec-if": "pgrep spotify",
+        "interval": 1,
+        "on-click": "playerctl -p spotify play-pause",
+        "tooltip": false
+    },
+    "custom/spotify-prev": {
+        "format": " 󰒮 ",
+        "exec": "echo -1",
+        "exec-if": "pgrep spotify",
+        "interval": 1,
+        "on-click": "playerctl -p spotify previous",
+        "tooltip": false
+    },
+    "custom/spotify-next": {
+        "format": " 󰒭  ",
+        "exec": "echo 1",
+        "exec-if": "pgrep spotify",
+        "interval": 1,
+        "on-click": "playerctl -p spotify next",
+        "tooltip": false
+    }
+}

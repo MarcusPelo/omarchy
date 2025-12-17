@@ -1,0 +1,47 @@
+{
+    "custom/homelab-moria": {
+        "format": "   ",
+        "on-click": "omarchy-launch-webapp 'https://pve.pelobox.com'",
+        "tooltip-format": "Moria Proxmox VE"
+    },
+    "custom/homelab-qbit-media": {
+        "format": "  ",
+        "on-click": "omarchy-launch-webapp 'http://10.11.18.103:8090/'",
+        "tooltip-format": "qBit Media"
+    },
+    "custom/homelab-qbit-games": {
+        "format": "  ",
+        "on-click": "omarchy-launch-webapp 'http://10.11.18.120:8090/'",
+        "tooltip-format": "qBit Games"
+    },
+    "custom/homelab-sonarr": {
+        "format": "󱄐  ",
+        "on-click": "omarchy-launch-webapp 'http://10.11.18.104:8989'",
+        "tooltip-format": "Sonarr"
+    },
+    "custom/homelab-radarr": {
+        "format": "󱜋  ",
+        "on-click": "omarchy-launch-webapp 'http://10.11.18.105:7878'",
+        "tooltip-format": "Radarr"
+    },
+    "custom/homelab-plex": {
+        "format": "󰚺  ",
+        "on-click": "omarchy-launch-webapp 'http://10.11.18.102:32400/web/index.html'",
+        "tooltip-format": "Plex"
+    },
+    "custom/homelab-immich": {
+        "format": "  ",
+        "on-click": "omarchy-launch-webapp 'https://photos.pelobox.com'",
+        "tooltip-format": "Immich"
+    },
+    "custom/homelab-openwebui": {
+        "format": "  ",
+        "on-click": "omarchy-launch-webapp 'https://ai.pelobox.com'",
+        "tooltip-format": "OpenWebUI"
+    },
+    "custom/homelab-homeassistant": {
+        "format": "󰟐  ",
+        "on-click": "omarchy-launch-webapp 'http://10.11.18.222:8123/'",
+        "tooltip-format": "Home Assistant"
+    }
+}

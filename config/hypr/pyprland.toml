@@ -1,0 +1,78 @@
+# Main pyprland configuration section
+[pyprland]
+plugins = [
+    "scratchpads",
+    "lost_windows",
+    "monitors",
+    "toggle_dpms",
+    "magnify",
+    "expose",
+    "shift_monitors",
+    "workspaces_follow_focus",
+    "shortcuts_menu",
+    "layout_center",
+    "toggle_special",
+]
+
+# Terminal scratchpad configuration
+[scratchpads.term]
+animation = "fromTop"
+command = "ghostty --class=com.mitchellh.ghostty"
+class = "com.mitchellh.ghostty"
+size = "60% 60%"
+float = true
+alt_toggle = true
+
+
+# Spotify scratchpad configuration
+[scratchpads.spotify]
+animation = "fromTop"
+command = "spotify"
+class = "spotify"
+size = "65% 60%"
+lazy = true
+float = true
+
+# Obsidian scratchpad configuration
+[scratchpads.obsidian]
+animation = "fromBottom"
+command = "uwsm-app -- obsidian -disable-gpu --enable-wayland-ime 'obsidian://open?vault=PalantirMD&file=Mapas/Tech'"
+class = "obsidian"
+size = "80% 80%"
+lazy = true
+float=true
+# WhatsApp Web scratchpad configuration
+[scratchpads.whatsapp]
+animation = "fromTop"
+command = "omarchy-launch-webapp 'https://web.whatsapp.com'"
+match_by = "initialClass"
+initialClass = "chrome-web.whatsapp.com__-Default"
+process_tracking = false
+size = "65% 60%"
+lazy = true
+float = true
+alt_toggle = true
+
+# Youtube scratchpad configuration
+[scratchpads.youtube]
+animation = "fromTop"
+command = "omarchy-launch-webapp 'https://youtube.com'"
+match_by = "initialClass"
+initialClass = "chrome-youtube.com__-Default"
+process_tracking = false
+size = "65% 60%"
+lazy = true
+float = true
+alt_toggle = true
+
+# Typora scratchpad configuration
+[scratchpads.typora]
+animation = "fromTop"
+command = "uwsm app -- typora --enable-wayland-ime %U"
+class = "Typora"
+# use = "terminals"
+size = "60% 60%"
+lazy = true
+float = true
+alt_toggle = true
+preserve_aspect = true

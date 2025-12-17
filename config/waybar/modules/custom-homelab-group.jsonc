@@ -1,0 +1,21 @@
+{
+    "group/homelab-drawer": {
+        "orientation": "inherit",
+        "drawer": {
+            "transition-duration": 500,
+            "children-class": "custom/homelab-moria",
+            "transition-left-to-right": true
+        },
+        "modules": [
+            "custom/homelab-moria",
+            "custom/homelab-qbit-media",
+            "custom/homelab-qbit-games",
+            "custom/homelab-sonarr",
+            "custom/homelab-radarr",
+            "custom/homelab-plex",
+            "custom/homelab-immich",
+            "custom/homelab-openwebui",
+            "custom/homelab-homeassistant"
+        ]
+    }
+}

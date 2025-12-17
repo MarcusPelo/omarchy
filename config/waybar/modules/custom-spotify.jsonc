@@ -1,0 +1,7 @@
+{
+    "custom/spotify": {
+        "format": " ",
+        "on-click": "pypr toggle spotify",
+        "tooltip-format": "Spotify (Scratchpad)"
+    }
+}

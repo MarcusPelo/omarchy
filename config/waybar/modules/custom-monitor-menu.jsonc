@@ -1,0 +1,14 @@
+{
+    "custom/monitor-menu": {
+        "format": "󰍹 ",
+        "tooltip": false,
+        "on-click": "~/.config/hypr/scripts/monitor-profile-menu.sh",
+        "menu": "on-click-right",
+        "menu-file": "~/.config/waybar/menus/monitors.xml",
+        "menu-actions": {
+            "default": "~/.config/hypr/scripts/apply-monitor-profile.sh Default",
+            "single-monitor": "~/.config/hypr/scripts/apply-monitor-profile.sh Single",
+            "sofa": "~/.config/hypr/scripts/apply-monitor-profile.sh Sofa"
+        }
+    }
+}

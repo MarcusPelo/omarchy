@@ -1,0 +1,7 @@
+{
+  "custom/youtube-music": {
+    "format": " ",
+    "on-click": "pypr toggle youtube-music",
+    "tooltip-format": "YouTube Music (Scratchpad)"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "custom/separator#blank": {
+    "format": "  ",
+    "interval": "once",
+    "tooltip": false
+  }
+}

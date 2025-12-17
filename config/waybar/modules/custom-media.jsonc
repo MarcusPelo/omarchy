@@ -1,0 +1,32 @@
+{
+  "custom/media": {
+    "format": "   ",
+    "exec": "playerctl metadata --format '{{ artist }} - {{ title }}' || echo 'No media playing'",
+    "interval": 1,
+    // "exec-if": "playerctl status 2>/dev/null",
+    "on-click": "playerctl play-pause",
+    "menu": "on-click-right",
+    "menu-file": "$XDG_CONFIG_HOME/waybar/menus/media.xml",
+    "menu-actions": {
+      "yt": "pypr toggle youtube",
+      "yt-music": "pypr toggle youtube-music",
+      "spotify": "pypr toggle spotify"
+    }
+  },
+  "custom/media-prev": {
+    "format": " 󰒮 ",
+    "exec": "echo -1",
+    "exec-if": "playerctl status 2>/dev/null",
+    "interval": 1,
+    "on-click": "playerctl previous",
+    "tooltip": false
+  },
+  "custom/media-next": {
+    "format": " 󰒭  ",
+    "exec": "echo 1",
+    "exec-if": "playerctl status 2>/dev/null",
+    "interval": 1,
+    "on-click": "playerctl next",
+    "tooltip": false
+  }
+}

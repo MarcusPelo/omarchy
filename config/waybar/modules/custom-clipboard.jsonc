@@ -1,0 +1,7 @@
+{
+    "custom/clipboard-menu": {
+        "format": "  ",
+        "tooltip": false,
+        "on-click": "walker -m Clipboard"
+    }
+}

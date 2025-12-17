@@ -1,0 +1,7 @@
+{
+  "custom/youtube": {
+    "format": " ",
+    "on-click": "pypr toggle youtube",
+    "tooltip-format": "YouTube (Scratchpad)"
+  }
+}
