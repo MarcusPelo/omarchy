@@ -33,6 +33,15 @@ size = "65% 60%"
 lazy = true
 float = true
 
+# Proton Pass scratchpad configuration
+[scratchpads.proton-pass]
+animation = "fromTop"
+command = "uwsm-app -- proton-pass"
+class = "proton-pass"
+size = "65% 60%"
+lazy = true
+float = true
+
 # Obsidian scratchpad configuration
 [scratchpads.obsidian]
 animation = "fromBottom"
@@ -41,6 +50,7 @@ class = "obsidian"
 size = "80% 80%"
 lazy = true
 float=true
+
 # WhatsApp Web scratchpad configuration
 [scratchpads.whatsapp]
 animation = "fromTop"
