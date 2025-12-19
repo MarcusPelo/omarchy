@@ -97,7 +97,6 @@ plymouth
 polkit-gnome
 postgresql-libs
 power-profiles-daemon
-pyprland
 python-gobject
 python-poetry-core
 python-terminaltexteffects
