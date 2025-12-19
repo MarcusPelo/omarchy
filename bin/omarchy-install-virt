@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "Installing Virtualization packages..."
+omarchy-pkg-add qemu-full libvirt virt-manager dnsmasq
+
+echo "Enabling and starting libvirtd..."
+sudo systemctl enable --now libvirtd
+
+echo "Adding user to libvirt group..."
+sudo usermod -aG libvirt "$USER"
+
+echo "Virtualization setup complete. Please reboot for group changes to take effect."

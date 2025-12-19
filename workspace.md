@@ -17,7 +17,30 @@ Omarchy follows an "Omakase" (Chef's Choice) philosophy. It provides a curated, 
 
 # Changelog
 
-## [Current Session Changes] - 2025-12-17
+## [2025-12-19]
+
+### Added
+- **Custom Package Management**:
+    - Introduced `install/marxpelo-custom.packages` for user-specific packages.
+    - Added `install/packaging/custom.sh` to handle installation of custom packages.
+    - **New Packages**: `pacseek`, `pyprland`, `zen-browser-bin`, `proton-pass-bin`, `proton-vpn-gtk-app`, `networkmanager-openvpn`, `kdeconnect`, `antigravity`.
+- **Virtualization Support**:
+    - Added `bin/omarchy-install-virt` to install KVM/QEMU, Libvirt, and Virt-Manager.
+    - Added "Virtualization (KVM)" to `omarchy-menu` under `Install > Services`.
+- **Pacseek Configuration**:
+    - Added configuration at `config/pacseek/config.json` with transparency and custom styling.
+    - Added floating window rule for `org.omarchy.pacseek`.
+
+### Changed
+- **Hyprland Bindings (`config/hypr/bindings.conf`)**:
+    - **Application Launcher**: Changed binding from `SUPER+SPACE` to `SUPER+A` (executes `omarchy-launch-walker`).
+- **Window Rules (`default/hypr/apps/system.conf`)**:
+    - Increased floating window size from `875x600` to `975x700`.
+    - Added `org.omarchy.tsui` and `org.omarchy.pacseek` to floating classes.
+- **Package Organization**:
+    - Moved `pyprland` from base packages to custom packages list.
+
+## [2025-12-17]
 
 ### Added
 - **Monitor Selection Script (`install/post-install/monitors.sh`)**:
